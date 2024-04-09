@@ -36,6 +36,10 @@ a {
   text-decoration: none;
 }
 
+main {
+  display: flex;
+}
+
 ul li a {
   opacity: 0.5;
 }
@@ -45,8 +49,7 @@ ul li a:hover {
   opacity: 1;
 }
 
-h1,
-ul {
+h1, ul {
   font-family: "Mulish", sans-serif;
 }
 
@@ -66,12 +69,12 @@ h1 span {
 }
 
 section p {
+  color: #7d7987;
   font-size: 14px;
   line-height: 28px;
-  color: #7d7987;
-
   margin: 40px 0;
 }
+
 
 button {
   color: white;
